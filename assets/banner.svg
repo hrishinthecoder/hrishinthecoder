@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2170" height="726" viewBox="0 0 2170 726" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" width="2098" height="396" viewBox="36 136 2098 396" role="img" aria-labelledby="t">
   <title id="t">Hrishin Debnath — Research Enthusiast · Data Analyst</title>
   <defs>
     <style>
@@ -9,8 +9,7 @@
     </style>
   </defs>
 
-  <!-- background + card -->
-  <rect width="2170" height="726" fill="#F3EEE3"/>
+  <!-- card (transparent outside, so it sits cleanly on light or dark pages) -->
   <rect x="38" y="138" width="2094" height="392" rx="22" ry="22" fill="#F5F1E8" stroke="#D7D1C5" stroke-width="2.5"/>
 
   <!-- text -->
