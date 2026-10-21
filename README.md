@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/hrishin-debnath/"><img src="https://img.shields.io/badge/LinkedIn-hrishin--debnath-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="mailto:i.am.hrishin@gmail.com"><img src="https://img.shields.io/badge/Email-i.am.hrishin%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Open%20to-internships%20%26%20research%20mentorship-14B8A6?style=for-the-badge" alt="Open to internships and research mentorship">
+  <a href="https://www.linkedin.com/in/hrishin-debnath/"><img src="https://img.shields.io/badge/LinkedIn-hrishin--debnath-9a3412?style=for-the-badge&labelColor=1c1917" alt="LinkedIn"></a>
+  <a href="mailto:i.am.hrishin@gmail.com"><img src="https://img.shields.io/badge/Email-i.am.hrishin%40gmail.com-9a3412?style=for-the-badge&logo=gmail&logoColor=f6f1e7&labelColor=1c1917" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Open%20to-internships%20%26%20research%20mentorship-78716c?style=for-the-badge&labelColor=1c1917" alt="Open to internships and research mentorship">
 </p>
 
 Hi, I'm Hrishin. I'm a higher-secondary science student in Dhaka who turns public data into research. I have written two air-quality papers on my own, both now under review, and I'm testing whether language models answer medical questions worse in Bangla than in English.
