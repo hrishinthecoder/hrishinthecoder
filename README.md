@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Hrishin Debnath: student researcher and data analyst in Dhaka, Bangladesh">
+  <img src="assets/banner.svg" width="100%" alt="Hrishin Debnath: research enthusiast and data analyst in Dhaka, Bangladesh">
 </p>
 
 <p align="center">
