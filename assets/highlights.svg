@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="170" viewBox="0 0 1280 170" role="img" aria-label="Research highlights">
+<rect x="0.0" y="0" width="410.7" height="170" rx="16" fill="#0f1b2d"/>
+<rect x="0.0" y="0" width="6" height="170" rx="3" fill="#5eead4"/>
+<text x="32.0" y="70" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#5eead4">−36%</text>
+<text x="32.0" y="108" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#e2e8f0">PM2.5 drop when Dhaka empties for Eid</text>
+<text x="32.0" y="138" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">16 holidays · 75,325 hourly readings</text>
+<rect x="434.7" y="0" width="410.7" height="170" rx="16" fill="#0f1b2d"/>
+<rect x="434.7" y="0" width="6" height="170" rx="3" fill="#38bdf8"/>
+<text x="466.7" y="70" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#38bdf8">5.22 µg/m³</text>
+<text x="466.7" y="108" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#e2e8f0">better than “tomorrow = today”</text>
+<text x="466.7" y="138" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">next-day PM2.5 forecast · p = 0.022</text>
+<rect x="869.3" y="0" width="410.7" height="170" rx="16" fill="#0f1b2d"/>
+<rect x="869.3" y="0" width="6" height="170" rx="3" fill="#fbbf24"/>
+<text x="901.3" y="70" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#fbbf24">12,000</text>
+<text x="901.3" y="108" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#e2e8f0">medical exam questions → Bangla</text>
+<text x="901.3" y="138" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">testing whether LLMs answer worse in Bangla</text>
+</svg>
