@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Open%20to-internships%20%26%20research%20mentorship-78716c?style=for-the-badge&labelColor=1c1917" alt="Open to internships and research mentorship">
 </p>
 
-Hi, I'm Hrishin. I'm a higher-secondary science student in Dhaka who turns public data into research. I have written two air-quality papers on my own, both now under review, and I'm testing whether language models answer medical questions worse in Bangla than in English.
+Hi, I'm Hrishin. I'm a higher-secondary science student in Dhaka who turns public data into research. I have written two air-quality papers on my own, both now under review, and I'm testing whether language models answer medical questions worse in Bangla than in English. I also build tools I need myself, like a study app that catches me reaching for my phone.
 
 <p align="center">
   <img src="assets/highlights.svg" width="100%" alt="Research highlights: 36% PM2.5 drop during Eid; forecast 5.22 µg/m³ better than persistence; 12,000 medical exam questions translated to Bangla">
@@ -46,6 +46,18 @@ I built two independent pipelines from a single reference-grade monitor, ERA5 we
 </tr>
 </table>
 
+## 🛠️ Desk Watch
+
+<sub>Open source · v0.1.0-beta · Windows · MIT</sub>
+
+I kept picking up my phone while studying, so I built an app that notices. Desk Watch uses the webcam, entirely on the computer, and rings an alarm when you pick up a phone, leave the desk, look away or fall asleep. It also blocks distracting sites and apps, runs Pomodoro sessions, plans your tasks, and works in English and Bangla. Nothing is recorded or uploaded.
+
+I built it with Claude Code: I wrote about 60% of the code, set the requirements, made the design decisions, recorded the training clips and tested each stage.
+
+<a href="https://github.com/hrishinthecoder/desk-watch"><img src="https://github.com/hrishinthecoder/desk-watch/raw/main/docs/screenshots/light-study.png" width="80%" alt="Desk Watch study screen"></a>
+
+[Code →](https://github.com/hrishinthecoder/desk-watch) · [Download the beta →](https://github.com/hrishinthecoder/desk-watch/releases)
+
 ## 🌱 What I'm doing now
 
 - **Research intern, CreateBud Inc.** I'm building a Bangla version of the MedQA medical exam set (12,000 questions) to measure whether LLMs answer worse in Bangla than in English.
@@ -59,10 +71,10 @@ I built two independent pipelines from a single reference-grade monitor, ERA5 we
 |---|---|---|
 | [**dhaka-eid-pm25**](https://github.com/hrishinthecoder/dhaka-eid-pm25) | Event study, bootstrap CIs, placebo tests and weather control on 9 years of hourly data | Python, pandas, SciPy |
 | [**dhaka-pm25-forecast**](https://github.com/hrishinthecoder/dhaka-pm25-forecast) | Leak-free forecasting, Diebold–Mariano test, rolling backtest, SHAP, frozen artifacts | Python, XGBoost, LightGBM |
+| [**desk-watch**](https://github.com/hrishinthecoder/desk-watch) | On-device webcam app that alarms on phone use, leaving the desk or dozing off; blocker, planner, Bangla UI | TypeScript, Electron, MediaPipe |
 | [**Saas_Cohort_Model**](https://github.com/hrishinthecoder/Saas_Cohort_Model) | Customer retention falls to ~70% by month 12 while revenue retention holds near 95%; Monte Carlo NRR range 83–110% | Excel, Power Query, DAX |
 | [**elevvo-pathways-internship**](https://github.com/hrishinthecoder/elevvo-pathways-internship) | RFM segmentation of 1,998 customers: 306 "Champions" made 23.81% of revenue | Python |
 | [**bellabeat_case_study**](https://github.com/hrishinthecoder/bellabeat_case_study) | Google Data Analytics capstone: smart-device habits turned into marketing advice | R, SQL |
-| [**Olympic-Dashboard**](https://github.com/hrishinthecoder/Olympic-Dashboard) | Interactive dashboard of medals, countries and sports over time | Python |
 
 ## 🧰 Toolbox
 
@@ -75,6 +87,8 @@ I built two independent pipelines from a single reference-grade monitor, ERA5 we
   <img src="https://img.shields.io/badge/XGBoost-1F6FEB?style=flat-square" alt="XGBoost">
   <img src="https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square" alt="LightGBM">
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron">
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logoColor=black" alt="Power BI">
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square" alt="Tableau">
   <img src="https://img.shields.io/badge/Excel%20%C2%B7%20Power%20Query%20%C2%B7%20DAX-217346?style=flat-square" alt="Excel, Power Query, DAX">
