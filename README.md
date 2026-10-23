@@ -52,8 +52,6 @@ I built two independent pipelines from a single reference-grade monitor, ERA5 we
 
 I kept picking up my phone while studying, so I built an app that notices. Desk Watch uses the webcam, entirely on the computer, and rings an alarm when you pick up a phone, leave the desk, look away or fall asleep. It also blocks distracting sites and apps, runs Pomodoro sessions, plans your tasks, and works in English and Bangla. Nothing is recorded or uploaded.
 
-I built it with Claude Code: I wrote about 60% of the code, set the requirements, made the design decisions, recorded the training clips and tested each stage.
-
 **How it works.** Every frame stays on the computer. Detectors turn each frame into a few signals; time rules turn signals into alarms, so a quick glance or a blink never rings.
 
 ```mermaid
