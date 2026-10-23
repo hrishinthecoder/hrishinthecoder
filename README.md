@@ -54,7 +54,26 @@ I kept picking up my phone while studying, so I built an app that notices. Desk 
 
 I built it with Claude Code: I wrote about 60% of the code, set the requirements, made the design decisions, recorded the training clips and tested each stage.
 
-<a href="https://github.com/hrishinthecoder/desk-watch"><img src="https://github.com/hrishinthecoder/desk-watch/raw/main/docs/screenshots/light-study.png" width="80%" alt="Desk Watch study screen"></a>
+**How it works.** Every frame stays on the computer. Detectors turn each frame into a few signals; time rules turn signals into alarms, so a quick glance or a blink never rings.
+
+```mermaid
+flowchart LR
+    CAM["Webcam frame"] --> FACE["MediaPipe face landmarks<br/>eyes open or closed, head direction"]
+    CAM --> HAND["MediaPipe hands + person box"]
+    CAM --> OBJ["Phone detector<br/>(custom model, trained on my clips)"]
+    FACE --> RULES{"Time rules"}
+    HAND --> RULES
+    OBJ --> RULES
+    WIN["Front window + browser extension"] --> BLOCK{"Blocker mode<br/>10 s warning first"}
+    RULES -->|"phone in hand or at ear"| ALARM["Alarm<br/>study clock stops"]
+    RULES -->|"nobody at the desk"| ALARM
+    RULES -->|"looking away too long"| ALARM
+    RULES -->|"eyes closed 6 s or head down 15 s"| ALARM
+    BLOCK -->|"blocked app or site stays open"| ALARM
+    RULES -->|"all clear"| CLOCK["Study clock runs"]
+    ALARM --> LOG[("Local database<br/>sessions, history, stats")]
+    CLOCK --> LOG
+```
 
 [Code →](https://github.com/hrishinthecoder/desk-watch) · [Download the beta →](https://github.com/hrishinthecoder/desk-watch/releases)
 
@@ -62,6 +81,7 @@ I built it with Claude Code: I wrote about 60% of the code, set the requirements
 
 - **Research intern, CreateBud Inc.** I'm building a Bangla version of the MedQA medical exam set (12,000 questions) to measure whether LLMs answer worse in Bangla than in English.
 - **Market analyst, VibeWeave.** Market studies of India's textile industry and a verified database of 26 clothing manufacturers.
+- **NASA Space Apps Challenge 2026, Team Obsidian Prime.** Technical lead on *Baseline*, a prototype that compares an astronaut's daily health readings with their own normal range and cites the NASA study behind every flag. [Repo →](https://github.com/obsidianprimeofficial-alt/baseline)
 - **Deputy Director of R&D, CORViS.** I run the *Speaks Academia* seminar series.
 - **Next:** language disparity in LLMs, and whether image-generation models do worse with Bangla prompts.
 
